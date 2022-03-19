@@ -6,7 +6,7 @@
 int main(void)
 {
 int i;
-char a='a';
+char a = 'a';
 for (i = 0; i < 16; i++)
 {
 if (i < 10)
