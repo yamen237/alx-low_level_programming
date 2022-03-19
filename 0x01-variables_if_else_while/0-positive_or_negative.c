@@ -10,8 +10,8 @@ int main(void)
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-if (n > 0) printf("%lu is positif\n", n);
-else if (n == 0) printf("%d is zero\n", n);
-else printf("%lu isnegatif\n", n);
+if (n > 0) printf("%i is positif\n", n);
+else if (n == 0) printf("%i is zero\n", n);
+else printf("%i isnegatif\n", n);
 return (0);
 }
