@@ -2,6 +2,7 @@
 /**
  * _islower -  Return: 0 otherwise 1 for uppercase
  *  Return: 0 otherwise 1 for uppercase
+ * @c: take in a character
  */
 int _islower(int c)
 {
