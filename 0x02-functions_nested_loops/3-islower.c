@@ -4,7 +4,6 @@
  */
 int _islower(int c)
 {
-int n = 0;
 char a;
 
 for (a = 'a'; a <= 'z'; a++)
