@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalphabet - return 1 if letter(lowercase or uppercase)
+ * _isalpha - return 1 if letter(lowercase or uppercase)
  * @c: take in a character
  * Return: 1 for letter and 0 otherwise
  */
