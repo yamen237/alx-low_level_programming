@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * -islower - show lowercse
+ * _islower -  Return: 0 otherwise 1 for uppercase
+ *  Return: 0 otherwise 1 for uppercase
  */
 int _islower(int c)
 {
