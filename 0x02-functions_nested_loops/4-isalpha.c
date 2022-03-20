@@ -6,11 +6,11 @@
  */
 int _isalpha(int c)
 {
-char a;
+char a = 'a';
 char A = 'A';
 while (a <= 'z' && b <= 'Z')
 {
-if (c == a || c == b)
+if (c == a || c == A)
 {
 return (1);
 break;
