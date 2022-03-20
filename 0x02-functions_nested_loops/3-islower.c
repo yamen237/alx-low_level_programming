@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * -islower - show if char is lowercse or no
+ * -islower - show lowercse
  */
 int _islower(int c)
 {
@@ -10,9 +10,9 @@ for (a = 'a'; a <= 'z'; a++)
 {
 if (c == a)
 {
-return 1;
+return (1);
 break;
 }
 }
-return 0;
+return (0);
 }
