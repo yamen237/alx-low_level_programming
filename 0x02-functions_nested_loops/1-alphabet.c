@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * function that print alphabet in lower case
+ * print_alphabet - print alphabet in lower case
  */
 void print_alphabet(void)
 {
 char c;
-for (c = 'a'; c < 'z'; c++)
+for (c = 'a'; c <= 'z'; c++)
 {
 _putchar(c);
 }
