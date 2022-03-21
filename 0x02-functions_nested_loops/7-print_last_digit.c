@@ -10,8 +10,8 @@ if ( n > -9 && n < 0)
 return (-1 * n);
 else if (n > 0 && n < 9)
 return (n);
-else if (n < -9)
+else if (n < -9);
 return ((-1 * n) % 10);
-else (n > 9)
+else
 return n % 10;
 }
