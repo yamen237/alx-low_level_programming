@@ -1,4 +1,4 @@
-#includ-e <stdio.h>
+#include "main.h"
 /**
  * print_last_digit - print the last digit of number
  * @n: take in integer
@@ -12,6 +12,6 @@ else if (n > 0 && n < 9)
 return (n);
 else if (n < -9)
 return ((-1 * n) % 10);
-else if (n > 9)
+else (n > 9)
 return n % 10;
 }
