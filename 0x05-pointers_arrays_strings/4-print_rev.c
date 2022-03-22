@@ -14,7 +14,8 @@ int i;
 int nb = strlen(s) - 1;
 for (i = 0; i < nb; i++)
 {
-*(c + i) = *(s + (nb - i));
+nb -=i;
+*(c + i) = *(s + nb);
 }
 puts(c);
 }
