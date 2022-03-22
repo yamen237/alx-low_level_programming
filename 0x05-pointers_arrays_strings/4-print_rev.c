@@ -11,10 +11,10 @@ void print_rev(char *s)
 char *c;
 c = s;
 int i;
-for (i = 0; i < strlen(s); i++)
+int nb = strlen(s) - 1;
+for (i = 0; i < nb; i++)
 {
-*(c + i) = *(s + strlen(s) - 1 - i);
+*(c + i) = *(s + (nb - i));
 }
-puts(s);
 puts(c);
 }
