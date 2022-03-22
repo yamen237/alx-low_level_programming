@@ -10,4 +10,5 @@ int *c;
 c = b;
 b = a;
 b = a;
+delete c;
 }
