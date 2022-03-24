@@ -15,7 +15,7 @@ for (i = 0; i <= nb; i++)
 {
 n = nb - i;
 c = *(s + n);
-_putchar(c);
+putchar(c);
 }
-_putchar('\n');
+putchar('\n');
 }
