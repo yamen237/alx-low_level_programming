@@ -8,13 +8,14 @@
  */
 void print_rev(char *s)
 {
-char *c;
-c = s;
-int i;
+char c;
+int i, n;
 int nb = strlen(s) - 1;
 for (i = 0; i <= nb; i++)
 {
-c + i = s + nb - i;
+n = nb - i;
+c = *(s + n);
+_putchar(c);
 }
-puts(c);
+_putchar('\n');
 }
