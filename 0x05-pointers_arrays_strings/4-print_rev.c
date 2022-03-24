@@ -12,10 +12,9 @@ char *c;
 c = s;
 int i;
 int nb = strlen(s) - 1;
-for (i = 0; i < nb; i++)
+for (i = 0; i <= nb; i++)
 {
-nb -=i;
-*(c + i) = *(s + nb);
+c + i = s + nb - i;
 }
 puts(c);
 }
