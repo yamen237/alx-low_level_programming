@@ -1,18 +1,18 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_array print the elements of array
- * @a array to print
- * @n lenght of array to print
+ * print_array - print an array.
+ * @a the array to print
+ * @n array's length
  */
 void print_array(int *a, int n)
 {
 int i;
-for (i = 0; i <= n; i++)
+for (i = 0; i < n; i++)
 {
 if (a[i])
 printf("%d", a[i]);
-if (i < n )
+if (i < n - 1)
 putchar(',');
 }
 putchar('\n');
