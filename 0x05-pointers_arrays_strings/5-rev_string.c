@@ -2,21 +2,24 @@
 #include <string.h>
 /**
  * rev_string - reverse a string 
- * @s: take in character by pointer
+ * @s: 
  */
 void rev_string(char *s)
 {
-char c;
-char *a;
-a = s;
-int i;
-int n;
-n = strlen(s);
-for (i = 0; i < strlen(s); i++)
+int i, j, length;
+char a, c;
+for (length = 0; s[length] != '\0'; length++)
+{}
+j = length - 1;
+i = 0;
+
+while (j > i)
 {
-n--;
-c = *(s + n);
-*(a + i) = c;
+a = s[i];
+c = s[j];
+s[i] = a;
+s[j] = c;
+j--;
+i++;
 }
-s = a;
 }
