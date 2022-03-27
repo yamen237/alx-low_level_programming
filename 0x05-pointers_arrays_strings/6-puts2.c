@@ -11,7 +11,7 @@ int i;
 int nb;
 char c;
 nb = strlen(str);
-for (i = 0; i < nb; i +=2)
+for (i = 0; i < nb; i += 2)
 {
 c = *(str + i);
 putchar(c);
