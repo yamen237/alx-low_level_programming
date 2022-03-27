@@ -1,5 +1,6 @@
 #include <string.h>
 #include "main.h"
+#include <stdio.h>
 /**
  * puts2 - print every other character of à string
  * @str: take in string by pointer
