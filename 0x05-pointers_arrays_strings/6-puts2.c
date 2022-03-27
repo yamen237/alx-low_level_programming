@@ -13,7 +13,7 @@ nb = strlen(str);
 for (i = 0; i < nb; i +=2)
 {
 c = *(str + i);
-_putchar(c);
+putchar(c);
 }
-_putchar('\n');
+putchar('\n');
 }	
