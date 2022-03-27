@@ -17,4 +17,4 @@ c = *(str + i);
 putchar(c);
 }
 putchar('\n');
-}	
+}
