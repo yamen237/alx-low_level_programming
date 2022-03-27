@@ -12,15 +12,16 @@ n = strlen(str);
 int i;
 if (n % 2 == 0)
 {
-for (i = n/2; i < strlen(str); i ++)
+n = n/2;
+for (i = n; i < strlen(str); i ++)
 {
 putchar(*(str + i));
 }
 }
 else
 {
-n = (n - 1)/2;
-for (i = n + 1; i < strlen(str); i++)
+n = (n - 1)/2 + 1;
+for (i = n; i < strlen(str); i++)
 {
 putchar(*(str + i));
 }
