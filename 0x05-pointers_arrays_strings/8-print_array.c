@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * print_array - print an array.
- * @a the array to print
- * @n array's length
+ * @a: the array to print
+ * @n: array's length
  */
 void print_array(int *a, int n)
 {
@@ -13,7 +13,7 @@ for (i = 0; i < n; i++)
 if (a[i])
 printf("%d", a[i]);
 if (i < n - 1)
-printf(",");
+printf(", ");
 }
 printf("\n");
 }
